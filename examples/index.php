@@ -12,7 +12,7 @@ require_once(dirname(__DIR__).'/vendor/autoload.php');
 	
 	
 //二、实例化调用类
-	$test = new Kf5Client($yourDomain, $email);
+	$test = new Client($yourDomain, $email);
 	
 //三、根据你调用不同的API接口，设置不同的访问权限方式
 	/* APIV2调用权限分为三种：admin 表示管理员，agent 表示客服，end user 表示普通用户

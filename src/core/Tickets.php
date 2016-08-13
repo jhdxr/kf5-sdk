@@ -1,5 +1,5 @@
 <?php
-require_once 'core/apiRequire.php';
+
 
 
 class Tickets extends ClientAbstract{
