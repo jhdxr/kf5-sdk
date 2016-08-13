@@ -1,6 +1,6 @@
 <?php
 require_once 'core/apiRequire.php';
-class Client{
+class Kf5Client{
 	
 	protected  $subdomain;
 	protected  $email;

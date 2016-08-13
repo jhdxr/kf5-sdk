@@ -1,0 +1,27 @@
+{
+    "name": "kf5/sdk",
+    "description": "sdk for kf5.com",
+    "keywords": [
+        "kf5.com",
+        "sdk"
+    ],
+    "type": "library",
+    "homepage": "https://github.com/jhdxr/kf5-sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jhdxr",
+            "email": "me@jhdxr.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "files": [
+            "src/Client.php"
+        ]
+    }
+}
